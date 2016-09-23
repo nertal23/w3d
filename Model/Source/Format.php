@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2015 Amasty (http://www.amasty.com)
  * @package W3D_ExportOrder
  */
-namespace W3D\ExportOrder\Model\Source;
+namespace W3development\ExportOrder\Model\Source;
 
 class Format implements \Magento\Framework\Option\ArrayInterface
 {
