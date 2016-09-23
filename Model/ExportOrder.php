@@ -1,9 +1,9 @@
 <?php
 /**
- * Copyright © 2015 W3D. All rights reserved.
+ * Copyright Â© 2015 W3D. All rights reserved.
  */
 
-namespace W3D\ExportOrder\Model;
+namespace W3development\ExportOrder\Model;
 
 class ExportOrder extends \Magento\Framework\Model\AbstractModel
 {
@@ -15,6 +15,6 @@ class ExportOrder extends \Magento\Framework\Model\AbstractModel
     protected function _construct()
     {
         parent::_construct();
-        $this->_init('W3D\ExportOrder\Model\ResourceModel\ExportOrder');
+        $this->_init('W3development\ExportOrder\Model\ResourceModel\ExportOrder');
     }
 }
