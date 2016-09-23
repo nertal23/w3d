@@ -1,7 +1,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/App/etc/routes.xsd">
     <router id="admin">
         <route id="w3d_exportorder" frontName="w3d_exportorder">
-            <module name="W3development_ExportOrder" />
+            <module name="W3development_Exportorders" />
         </route>
     </router>
 </config>
