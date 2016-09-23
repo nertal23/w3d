@@ -1,9 +1,9 @@
 <?php
 /**
- * Copyright © 2015 Amasty. All rights reserved.
+ * Copyright Â© 2015 Amasty. All rights reserved.
  */
 
-namespace W3D\ExportOrder\Model\ResourceModel;
+namespace W3development\ExportOrder\Model\ResourceModel;
 
 class ExportOrder extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
 {
