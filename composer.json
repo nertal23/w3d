@@ -1,5 +1,5 @@
 {
-  "name": "w3d/exportorders",
+  "name": "w3development/exportorders",
   "description": "A Magento 2 module that exports orders in different formats",
   "type": "magento2-module",
   "version": "0.0.1",
@@ -26,7 +26,7 @@
   ],
   "minimum-stability": "dev-master",
   "require": {
-    "w3d/exportorders": "0.0.1"
+    "w3development/exportorders": "0.0.1"
   },
   "autoload": {
     "files": [ "registration.php" ]
