@@ -24,7 +24,7 @@
       "url": "https://github.com/w3development/exportorders.git"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "dev-master",
   "require": {
     "w3d/exportorders": "0.0.1"
   },
