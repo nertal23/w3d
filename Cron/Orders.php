@@ -1,5 +1,5 @@
 <?php
-namespace W3D\ExportOrder\Cron;
+namespace W3development\ExportOrder\Cron;
 
 use Magento\Sales\Api\OrderRepositoryInterface;
 use Magento\Framework\Api\SearchCriteriaBuilder;
@@ -26,11 +26,11 @@ class Orders {
         \Magento\Sales\Api\OrderRepositoryInterface $orderRepository,
         \Magento\Framework\Api\SearchCriteriaBuilder $searchCriteriaBuilder,
         \Magento\Framework\Api\FilterBuilder $filterBuilder,
-         \W3D\ExportOrder\Model\Export\Adapter\Csv $csv,
+         \W3development\ExportOrder\Model\Export\Adapter\Csv $csv,
          \Magento\Customer\Api\GroupRepositoryInterface $customerGroup,
          \Magento\Customer\Api\CustomerRepositoryInterface $customerRepository,
          \Magento\Framework\App\ResourceConnection $resource,
-         \W3D\ExportOrder\Helper\Data $helper,
+         \W3development\ExportOrder\Helper\Data $helper,
          \Magento\Framework\Xml\Parser $xml
     ) {
         $this->orderRepository = $orderRepository;
