@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2016 W3D
  * @package W3D_ExportOrder
  */
-namespace W3D\ExportOrder\Block\Catalog\Product;
+namespace W3development\ExportOrder\Block\Catalog\Product;
 
 class ExportOrder extends \Magento\Framework\View\Element\Template
 {
@@ -21,7 +21,7 @@ class ExportOrder extends \Magento\Framework\View\Element\Template
     public function __construct(
         \Magento\Framework\View\Element\Template\Context $context,
         array $data = [],
-        \W3D\ExportOrder\Helper\Data $helper,
+        \W3development\ExportOrder\Helper\Data $helper,
         \Magento\Framework\ObjectManagerInterface $objectManager
     ) {
         parent::__construct($context, $data);
@@ -55,7 +55,7 @@ class ExportOrder extends \Magento\Framework\View\Element\Template
 
     public function getCollection()
     {
-        $model = $this->_objectManager->create('W3D\ExportOrder\Model\ExportOrder');
+        $model = $this->_objectManager->create('W3development\ExportOrder\Model\ExportOrder');
         $collection = $model->getCollection();
 
         return $collection;
