@@ -1,0 +1,14 @@
+<?php
+/**
+ * @author W3D Team
+ * @copyright Copyright (c) 2016 W3D
+ * @package W3D_ExportOrder
+ */
+?>
+<div class="w3d-exportorder-block" style="text-align: <?= $this->getTextAlign()?>">
+    <h3 class="label"><?= $this->getBlockLabel()?></h3>
+    <?=__('Export Order');?>
+    <?php foreach($this->getCollection() as $item):?>
+        <p><label><?= __("Title: ") . $item->getLabel()?></label> -- <label><?=  __("Value: ") . $item->getValue();?></label></p>
+    <?php endforeach;?>
+</div>

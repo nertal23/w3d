@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Amasty Team
+ * @copyright Copyright (c) 2015 Amasty (http://www.amasty.com)
+ * @package Amasty_HelloWorld
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Magento/Store/etc/config.xsd">
+    <default>
+        <w3d_exportorder>
+            <general>
+                <format>xml</format>
+                <cron_label>3</cron_label>
+                <folder_path>tmp/orders.xml</folder_path>
+            </general>
+        </w3d_exportorder>
+    </default>
+</config>
