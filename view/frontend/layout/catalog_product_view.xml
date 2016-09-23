@@ -8,11 +8,11 @@
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
-        <css src="W3D_ExportOrder/css/hello.css"/>
+        <css src="W3development_ExportOrder/css/hello.css"/>
     </head>
     <body>
         <referenceContainer name="product.info.main">
-            <block name="w3d_exportorder.exportorder" class="W3D\ExportOrder\Block\Catalog\Product\ExportOrder" before="-" template="product/hello.phtml" />
+            <block name="w3d_exportorder.exportorder" class="W3development\ExportOrder\Block\Catalog\Product\ExportOrder" before="-" template="product/hello.phtml" />
         </referenceContainer>
     </body>
 </page>
