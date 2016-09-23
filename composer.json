@@ -26,7 +26,7 @@
   ],
   "minimum-stability": "alpha",
   "require": {
-    "w3development/exportorders": "0.0.1"
+    "w3d/exportorders": "0.0.1"
   },
   "autoload": {
     "files": [ "registration.php" ]
