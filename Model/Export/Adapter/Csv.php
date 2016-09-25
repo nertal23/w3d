@@ -3,7 +3,7 @@
  * Copyright © 2016 Magento. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace W3development\ExportOrder\Model\Export\Adapter;
+namespace W3development\ExportOrders\Model\Export\Adapter;
 
 /**
  * Export adapter csv.
