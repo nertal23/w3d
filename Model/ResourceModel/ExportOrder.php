@@ -3,7 +3,7 @@
  * Copyright © 2015 Amasty. All rights reserved.
  */
 
-namespace W3development\ExportOrder\Model\ResourceModel;
+namespace W3development\Exportorders\Model\ResourceModel;
 
 class ExportOrder extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
 {
