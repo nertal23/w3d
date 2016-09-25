@@ -9,7 +9,7 @@
         <section id="w3d_exportorder" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>W3development ExportOrder</label>
             <tab>w3d</tab>
-            <resource>W3development_ExportOrder::w3d_exportorder</resource>
+            <resource>W3development_Exportorders::w3d_exportorder</resource>
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
                 <label>General</label>
                 <field id="cron_label" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -17,7 +17,7 @@
                 </field>
                 <field id="format" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Export format</label>
-                    <source_model>W3development\ExportOrder\Model\Source\Format</source_model>
+                    <source_model>W3development\Exportorders\Model\Source\Format</source_model>
                     <!-- <source_model>Magento\Config\Model\Config\Source\Yesno</source_model> -->
                    <!--  <comment>
                         Comment for `Enable Export Order` setting.
