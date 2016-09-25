@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2016 W3D
  * @package W3D_ExportOrder
  */
-namespace W3development\ExportOrders\Helper;
+namespace W3development\Exportorders\Helper;
 
 class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {
