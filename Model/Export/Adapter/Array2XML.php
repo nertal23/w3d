@@ -44,7 +44,7 @@
  *
 **/
 
-namespace W3development\ExportOrders\Model\Export\Adapter;
+namespace W3development\Exportorders\Model\Export\Adapter;
 
 class Array2XML extends \Magento\Framework\Model\AbstractModel
 {
