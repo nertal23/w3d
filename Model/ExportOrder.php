@@ -3,7 +3,7 @@
  * Copyright © 2015 W3D. All rights reserved.
  */
 
-namespace W3development\ExportOrder\Model;
+namespace W3development\Exportorders\Model;
 
 class ExportOrder extends \Magento\Framework\Model\AbstractModel
 {
