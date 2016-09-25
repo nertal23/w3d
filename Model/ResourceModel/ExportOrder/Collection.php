@@ -3,7 +3,7 @@
  * Copyright © 2015 Amasty. All rights reserved.
  */
 
-namespace W3development\ExportOrder\Model\ResourceModel\ExportOrder;
+namespace W3development\ExportOrders\Model\ResourceModel\ExportOrder;
 
 class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
 {
@@ -14,6 +14,6 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\Ab
      */
     protected function _construct()
     {
-        $this->_init('W3development\ExportOrder\Model\ExportOrder', 'W3development\ExportOrder\Model\ResourceModel\ExportOrder');
+        $this->_init('W3development\Exportorders\Model\ExportOrder', 'W3development\Exportorders\Model\ResourceModel\ExportOrder');
     }
 }
