@@ -30,7 +30,7 @@ class Orders {
          \Magento\Customer\Api\GroupRepositoryInterface $customerGroup,
          \Magento\Customer\Api\CustomerRepositoryInterface $customerRepository,
          \Magento\Framework\App\ResourceConnection $resource,
-         \W3development\ExportOrder\Helper\Data $helper,
+         \W3development\ExportOrders\Helper\Data $helper,
          \Magento\Framework\Xml\Parser $xml
     ) {
         $this->orderRepository = $orderRepository;
