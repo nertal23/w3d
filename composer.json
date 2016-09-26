@@ -30,7 +30,7 @@
            "W3development/Exportorders"
          ]
     ]
-   }
+   },
   "autoload": {
     "files": [ "registration.php" ]
   }
