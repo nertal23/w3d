@@ -19,8 +19,7 @@
   ],
   
   "require": {
-    "w3development/exportorders": "0.0.1",
-    "magento/magento-composer-installer": "*"
+    "w3development/exportorders": "0.0.1"
   },
   
   "extra": {
