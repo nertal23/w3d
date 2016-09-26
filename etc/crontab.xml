@@ -1,7 +1,0 @@
-<config>
-    <group id="default">
-        <job name="order_export_cron" instance="W3development\Exportorders\Cron\Orders" method="execute">
-            <config_path>w3d_exportorder/general/cron_label</config_path>
-        </job>
-    </group>
-</config>
