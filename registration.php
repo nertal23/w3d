@@ -6,6 +6,6 @@
  */
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'W3development_Exportorders',
+    'W3D_Exportorders',
     __DIR__
 );
