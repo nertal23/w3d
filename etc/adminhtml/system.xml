@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- /** * @author W3D Team * @copyright Copyright (c) 2015 W3D (http://w3development.net) * @package W3D_Exportorders */ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Config/etc/system_file.xsd">
+    <system>
+        <tab id="w3d" translate="label" sortOrder="10">
+            <label>W3D</label>
+        </tab>
+ 
+        <section id="w3d_exportorder" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>W3D Exportorders</label>
+            <tab>w3d</tab>
+            <resource>W3D_Exportorders::w3d_exportorder</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>General</label>
+                <field id="cron_label" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Cron</label>
+                </field>
+                <field id="format" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Export format</label>
+                    <source_model>W3D\Exportorders\Model\Source\Format</source_model>
+                    <!-- <source_model>Magento\Config\Model\Config\Source\Yesno</source_model> -->
+                   <!--  <comment>
+                        Comment for `Enable Export Order` setting.
+                    </comment> -->
+                </field>
+                
+                <field id="folder_path" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Store result in</label>
+                    <!-- <source_model>W3D\Exportorders\Model\Source\Align</source_model> -->
+                    <comment>
+                        Path of folder where you want to store the csv file.
+                    </comment>
+                </field>
+            </group>
+        </section>
+ 
+    </system>
+</config>
