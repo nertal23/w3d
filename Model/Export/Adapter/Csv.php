@@ -1,7 +1,6 @@
 <?php
 /**
- * Copyright © 2016 Magento. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright © 2015 W3D. All rights reserved.
  */
 namespace W3D\Exportorders\Model\Export\Adapter;
 
