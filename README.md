@@ -19,7 +19,7 @@ Go to admin page, you can see version of Magento 2 at left bottom page
 # Step 2: Pre-Installation
 The Magento front end relies heavily on caching to provide a faster experience to customer. This is a wonderful tool, but can wreak havoc during the installation process. To ensure that cache is not the cause of any problem, you'd better turn it off. This can be done from the admin console by navigating to the Cache Management page (System->Cache Management), selecting all caches, clicking "disable" from the drop-down menu, and submitting the change.
 
-You also should run the Magento software in developer mode when you’re extending or customizing it. You can use this command line to show current mode :
+You also should run the Magento software in developer mode when you’re extending or customizing it. You can use this command line to show current mode:
 php bin/magento deploy:mode:show
 Use this command to change to developer mode :
 php bin/magento deploy:mode:set developer
