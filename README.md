@@ -8,12 +8,8 @@ This project aims to facilitate the process of exporting orders in different for
 
 # Step 1: Verify your prerequisites
 Use the following table to verify you have the correct prerequisites to install the Magento software.
-Prerequisite
-How to check
-For more information
-Magento version Community Edition 2.0
-Go to admin page, you can see version of Magento 2 at left bottom page,
-Download Magento version Community Edition 2.0 here
+Prerequisite                              How to check                             
+Magento version Community Edition 2.0     Go to admin page, you can see version of Magento 2 at left bottom page
 
 
 # Step 2: Pre-Installation
